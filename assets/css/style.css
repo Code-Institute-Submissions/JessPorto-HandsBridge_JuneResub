@@ -7,7 +7,20 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    color:#3a3a3a;
+}
 
+/* Headings and Logo*/
+
+h1,h2 {
+    font-family:'Lato', sans-serif;
+    text-transform: uppercase;
+    color:#4C50A9;
+}
+
+#logo {
+    float:left;
+    color:#F4A817;
 }
