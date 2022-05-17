@@ -80,6 +80,15 @@ h1,h2 {
     
 }
 
+#about-image {
+
+        height: 600px;
+        width:100%;
+        background: url('../images/about-image2.jpg') no-repeat center center;
+        overflow: hidden;
+        background-size:cover;
+}
+
 #right-box {
     color:#fff;
     background-color: #4C50A9;
