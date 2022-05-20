@@ -1,47 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa&family=Lato:wght@300&family=Roboto:wght@100;300&family=Short+Stack&display=swap');
 
 * {
-    margin:0;
-    padding:0;
-    border:none;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight:400;
-    color:#3a3a3a;
+    font-weight: 400;
+    font-size:1.3em;
+    color: #3a3a3a;
+
 }
 
 
 /* Headings and Logo*/
 
-h1,h2 {
-    font-family:'Changa', sans-serif;
+h1,
+h2 {
+    font-family: 'Changa', sans-serif;
+    font-size: 1.5em;
     color: #F4A817;
 }
 
+
 #logo {
-    float:left;
-    font-size:300%;
-    color:#F4A817;
+    float: left;
+    font-size: 300%;
+    color: #F4A817;
     margin-left: 1rem;
     letter-spacing: 4px;
-    
+
 }
 
 
 /* navigation links */
 
-#menu{
-    font-family:'Changa', sans-serif;
+#menu {
+    font-family: 'Changa', sans-serif;
     font-size: 130%;
     letter-spacing: 4px;
-        
+
 }
 
-#menu, #logo{
-    line-height:75px;
-   
+#menu,
+#logo {
+    line-height: 75px;
+
 }
 
 #menu li {
@@ -53,8 +59,8 @@ h1,h2 {
 #menu a {
     text-decoration: none;
     text-align: center;
-    color:#F4A817;
-    
+    color: #F4A817;
+
 }
 
 #menu a:hover {
@@ -70,74 +76,115 @@ h1,h2 {
 /* Hero image */
 
 #hero-image {
-    height: 600px;
-    width:100%;
-    background: url('../images/image-from-rawpixel-id-615653-original.jpg') no-repeat center center;
+    height: 37.5em;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
     overflow: hidden;
-    background-size:cover;
- 
-    
-}
+    background-size: cover;
 
-#about-image {
 
-        height: 600px;
-        width:100%;
-        background: url('../images/about-image2.jpg') no-repeat center center;
-        overflow: hidden;
-        background-size:cover;
 }
 
 /* mission section */
 
+#mission {
+    padding: 2em;
+    line-height: 1.7em;
+    text-align: justify;
+
+}
+
+/* Mission headings */
+#mission h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5em;
+    
+}
+
+/* goal section */
+
+#goal-help {
+    color:#fff;
+    text-align: justify;
+    background-color:#4C50A9;
+    width:100%;
+    height:25rem;
+    line-height:1.7em;
+}
+
+#goal-help-heading {
+    text-align: center;
+    text-transform: uppercase;
+   
+    
+}
+
 #right-box {
     color:#fff;
-    background-color: #4C50A9;
-
-    padding-top: 30px;
     width: 45%;
-    height: 300px;
+    height: 10em;
     float: right;
-    margin-right: 3rem;
-    margin-left: auto;
-
+    margin: 1.5rem;
+    
 }
 
 #left-box {
     color:#fff;
-    background-color:#4C50A9;
-
-    padding-top: 30px;
     width: 45%;
-    height: 300px;
+    height: 10em;
     float: left;
-    margin-left: 3rem;
-    margin-right: auto;
-
+    margin: 1.5rem;
+    
 }
+
 
 /* About us section */
 
+/*About Us image*/
+
+#about-image {
+
+    height: 37.5em;
+    width: 100%;
+    background: url('../images/about-image.webp') no-repeat center center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+/* About Us Text*/
 #about-us {
-    font-size:1.3em;
+    font-size: 1.3em;
     text-align: center;
+    line-height: 1.7em;
     padding-left: 10rem;
     padding-right: 10rem;
+
 }
+
+/* About us heading */
+#about-us h1 {
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+
 #about-us p {
     text-align: justify;
 }
 
+/* Footer */
+
 footer {
-    height: 150px;
+    height: 9.375em;
     background-color: #F4A817;
+   
 }
 
 .social-media-aogim {
     text-align: center;
 }
 
-.social-media-aogim > li {
+.social-media-aogim>li {
     display: inline;
 }
 
@@ -150,28 +197,31 @@ footer {
 
 /* Media Queries*/
 
-/*Tablet? from 1000px*/
-@media screen and (max-width:1000px){
-    #left-box, #right-box {
+/* from 1000px*/
+@media screen and (max-width:1000px) {
+
+    #left-box,
+    #right-box {
         width: 100%;
-        height:1000px;
-        margin:0 auto;
-        float:center;
-        padding:0;
-    };
+        height: 6.25em;
+        margin: 0 auto;
+        float: center;
+        padding: 0;
+    }
+
+    ;
 }
 
 /*medium to small screen from 750px*/
 
 @media screen and (max-width:750px) {
     #menu {
-        clear:left;
-        float:left;
-        margin-left:30px;
-        margin-bottom:20px;
-        line-height:25px;
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
 
     }
 
 }
-
