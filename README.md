@@ -1,108 +1,151 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# HandsBridge
 
-Welcome JessPorto,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- The HandsBridge website is a page with the purpose to do charity campaign by the church Assembly of God ireland ministry, in Newbridge, this campaign aims to raise funds for people in Brazil and Ireland.
+###
 
-## Gitpod Reminders
+- Helps people finds the adequate way to help other families in crisis.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Responsice Mockup](/assets/images/AmIresponsiveIimage.JPG)
 
-`python3 -m http.server`
+**Navigation**
 
-A blue button should appear to click: _Make Public_,
+- At the top of the page left side shows the page name at left corner: HandsBridge that will link back to the top of the page home always when clicked.
 
-Another blue button should appear to click: _Open Browser_.
+###
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- At the right top of the page we can see the Home About Us and Contact that will lead to the other pages.
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](/assets/images/MenuImage.JPG)
 
-Another blue button should appear to click: _Open Browser_.
+### Home sections
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- **Main Image**
 
-To log into the Heroku toolbelt CLI:
+  - A main image that shows that together we can do more helping each other.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ 
+ ![Main Image](/assets/images/MainImage.JPG)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- **People we help Section**
 
-------
+  - The People We Help Section contain a brief description of what the project is doing in Ireland and Brazil.
+  ###
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![People We Help Image](/assets/images/PeopleWeHelpImage.JPG)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- **Ways that you can Help Section**
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  - Brief description of ways that you can help.
+  ###
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  ![Ways that you can help](/assets/images/WaysImage.JPG)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  ###
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  - The footer will show links to the social media sites that will open in a new tab.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![ footer](/assets/images/FooterImage.JPG)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- **About page**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  - The "About Us" page will contain the title and links as the main page and it will have a section of "Who we are" explaining a bit more about the vision.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  ###
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  - It will have a footer as the Home page with the social media webpages.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![About us ](/assets/images/aboutusImage1.JPG)
+![About us ](/assets/images/aboutusImage2.JPG)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- **Contact page**  HEREEE
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  - The "Contact" page will have the title and links as the other pageas and it will countain a contact us form in case of questions or suggestions.
 
-------
+  ###
 
-## FAQ about the uptime script
+  - The form has validation on the three sections with a logo image black and white at the right side and a submit button it has the social media pages and copyright.
 
-**Why have you added this script?**
+![Contact](/assets/images/contactImage0.JPG)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Testing
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- The page was tested in Chrome and Edge.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- Responsiveness of the page tested as showed the first screenshot.
 
-**So….?**
+### Performance Test
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- Home
+  ![Home](/assets/images/HomePerformaceImage.JPG)
 
-**Can I opt out?**
+###
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- About
+  ![About](/assets/images/performaceImageAbout.JPG)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+###
 
-**Anything more?**
+- Contact 
+  ![Contact](/assets/images/ContactPerformaceImage.JPG)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Features Left to Implement
 
----
+- A future idea will be implement A Button that will redirect the user to PayPal to donate.
 
-Happy coding!
+### Validator Testing
+
+- Index HTML
+  Only one warning found on the html with the official validator [W3C validator](/assets/images/homeValidator.jpg)
+  ###
+- About Us HTML
+  No erros found with the official validator [W3C validator](/assets/images/AboutValidator.jpg)(only two warnings)
+  ###
+- Contact  HTML
+  No errors were found when passing through the official [W3C validator](/assets/images/ContactValidator.jpg)
+  ###
+- CSS
+  No errors were found when passing through the official [W3C CSS validator](/assets/images/CssValidator.jpg)
+
+### Unfixed Bugs
+
+- The mobile responsiveness needs to be fixed.
+
+
+## Deployment 
+
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [Here](https://jessporto.github.io/HandsBridge/
+) 
+## Credits
+
+- Contact form based on form present on Love-Running project [Love-Running ](https://jessporto.github.io/love-running/)  
+ ####
+
+ - "About" text partially taken from [Solid Rock](http://solidrockdublin.org/) 
+ ####
+
+ 
+
+### Content
+
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+
+- The images used for the page were taken from this open source page below [Rawpixel](https://www.rawpixel.com/)
+
+
+
