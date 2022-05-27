@@ -164,26 +164,7 @@ h2 {
 #donate, #volunteer {
     padding:0.5em;
     
-    }
-
-
-
-/*
-#donate-volunteer-image {
-    height: 12em;
-    width: 42%;
-    background: url('../images/donate-volunteer-image.webp') no-repeat;
-    float:right;
-    background-size: cover;
-    background-position:50%;
-    position:relative;
-
-
 }
-*/
-
-
-
 /* About us section */
 
 /*About Us image*/
@@ -204,6 +185,7 @@ h2 {
     line-height: 1.7em;
     padding-left: 10rem;
     padding-right: 10rem;
+    height:700px;
 
 }
 
@@ -216,6 +198,64 @@ h2 {
 #about-us p {
     text-align: justify;
 }
+
+/* Form */
+
+.form{
+    clear: left;
+    background-image: url('../images/donate-volunteer-image.webp');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+
+.contact-form {
+    margin:150px 10% 0 0;
+    color:#fff;
+    background-color:rgba(60, 20, 20, 0.6);
+    max-width:500px;
+    position:absolute;
+    left:30%;
+    padding:30px;
+}
+.contact-form h2{
+    color:#fafafa;
+    margin-bottom:20px;
+}  
+
+.text-input{
+    background:transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin:5px 0 20px;
+    border:1px solid #fafafa;
+    border-radius:2px;
+    
+}
+
+.text-input:hover{
+    border-color:#62174a;
+}
+
+.send-button {
+    margin-top:20px;
+    border-radius:2px;
+    padding:15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color:#62174a;
+    color:#fafafa;
+    display:block;
+  
+}
+
+.send-button:hover {
+    background-color:#fafafa;
+    color:#62174a;
+}
+
 
 /* Footer */
 

@@ -18,7 +18,7 @@
         <a href="index.html">
             <h1 id="logo">HandsBridge</h1>
         </a>
-        <!-- <p>Reaching, Reconecting and Restoring Lives.</p>-->
+
         <nav>
             <ul id="menu">
                 <li><a href="contact.html">Contact</a></li>
@@ -28,8 +28,45 @@
 
         </nav>
     </header>
-    <section id="form">
+    <section class="form">
+        <form method="POST" action="" class="contact-form">
+            <h2>Get in touch!</h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
 
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+
+            <label for="volunteer">Become a volunteer</label>
+            <input type="radio" id="volunteer" name="help_preference" value="volunteer" required>
+            <label for="donation">Make a donation</label>
+            <input type="radio" id="donation" name="help_preference" value="donation" required>            
+            <p><label for="message">Message:</label></p>
+            <textarea class="tex-input" id="message" name="message" rows="4" cols="66">Type your message here!</textarea>
+            <input class="send-button" type="submit" value="Send">
+        </form>
     </section>
+    <footer>
+        <ul class="social-media-aogim">
+            <li>
+                <a href="https://www.facebook.com/newbridge.kildare.14" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UC3aX-JjG1ELlKQgfCp4Iouw" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/aogim.newbridge/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
 
+    </footer>
+    <!-- font awesome script  -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>
+
+</html>
