@@ -309,3 +309,23 @@ footer {
 
 
 }
+
+/* small screen from 400px*/
+@media screen and (max-width:470px) {
+
+    #logo {
+        font-size: 150%;
+        margin-left:2em; 
+        margin-right: 2em;
+    }
+    
+    #menu {
+        font-size: 80%;
+         
+    }
+
+    #hero-image {
+
+        height: 20em;
+    }
+}
