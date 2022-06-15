@@ -295,9 +295,9 @@ footer {
     }
 }
 
-/*medium to small screen from 750px*/
+/*medium to small screen from 860px*/
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:860px) {
     #menu {
         clear: left;
         float: left;
@@ -307,25 +307,67 @@ footer {
 
     }
 
+    .contact-form {
+        margin:0;    
+        max-width: 100%;
+        position:0;
+        left:0;
+        padding: 30px;
+        overflow: hidden;
+        }
 
 }
 
-/* small screen from 400px*/
+/* small screen from 470px*/
 @media screen and (max-width:470px) {
 
     #logo {
-        font-size: 150%;
+        font-size: 145%;
         margin-left:2em; 
         margin-right: 2em;
     }
-    
+
     #menu {
-        font-size: 80%;
+        font-size: 115%;
+        letter-spacing:0;
          
     }
 
     #hero-image {
 
         height: 20em;
+    }
+
+    .form {
+        font-size: 1em;
+        height: 560px;
+
+    }
+
+    .contact-form {
+    margin:0;    
+    max-width: 100%;
+    position:0;
+    left:0;
+    padding: 5px;
+    overflow: hidden;
+    }
+    
+    #goal-help {
+     height: 35rem; 
+     
+    }
+    #right-box, #left-box {
+    float:none;    
+    border-style:none;
+    height:15rem;
+ 
+    
+    }
+  
+    
+
+    #donate-volunteer {
+        padding:0;
     }
 }
