@@ -9,7 +9,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size:1.3em;
+    font-size: 1.3em;
     color: #3a3a3a;
 
 }
@@ -95,77 +95,78 @@ h2 {
 }
 
 /* Mission headings */
-#mission h1, h2, h3 {
+#mission h1,
+h2,
+h3 {
     text-align: center;
     text-transform: uppercase;
     padding: 0.5em;
-    
+
 }
 
 /* goal section */
 
 #goal-help {
-    color:#fff;
+    color: #fff;
     text-align: justify;
-    background-color:#62174a;
-    width:100%;
-    height:25rem;
-    line-height:1.7em;
+    background-color: #62174a;
+    width: 100%;
+    height: 25rem;
+    line-height: 1.7em;
 }
 
 #goal-help-heading {
-    color:#fff;
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
-   
-    
+
+
 }
 
 #right-box {
-    color:#fff;
+    color: #fff;
     width: 42%;
     height: 12em;
     float: right;
     margin: 1.5rem;
-    padding:0.5em;
+    padding: 0.5em;
     border-style: dotted;
     border-radius: 50px;
-    
+
 }
 
 #left-box {
-    color:#fff;
+    color: #fff;
     width: 42%;
     height: 12em;
     float: left;
     margin: 1.5rem;
-    padding:0.5em;
+    padding: 0.5em;
     border-style: dotted;
     border-radius: 50px;
-    
+
 }
 
 /* volunteering and donation section */
 
 #donate-volunteer {
-    color:#fff;
+    color: #fff;
     text-align: center;
-    width:100%;
-    height:25rem;
-    line-height:1.7em;
-    padding: 0.5em;
+    width: 100%;
+    height: 25rem;
+    line-height: 1.7em;
     background-color: #296990ff;
-    border-style:solid;
-    border-radius: 40px;
-    overflow:hidden;
-    
-            
+    overflow: hidden;
+
+
 }
 
-#donate, #volunteer {
-    padding:0.5em;
-    
+#donate,
+#volunteer {
+    padding: 0.5em;
+
 }
+
 /* About us section */
 
 /*About Us image*/
@@ -186,7 +187,7 @@ h2 {
     line-height: 1.7em;
     padding-left: 10rem;
     padding-right: 10rem;
-    height:700px;
+    height: 700px;
 
 }
 
@@ -202,7 +203,7 @@ h2 {
 
 /* Form */
 
-.form{
+.form {
     clear: left;
     background-image: url('../images/donate-volunteer-image.webp');
     background-size: cover;
@@ -212,49 +213,50 @@ h2 {
 
 
 .contact-form {
-    margin:150px 10% 0 0;
-    color:#fff;
-    background-color:rgba(60, 20, 20, 0.6);
-    max-width:500px;
-    position:absolute;
-    left:30%;
-    padding:30px;
-}
-.contact-form h2{
-    color:#fafafa;
-    margin-bottom:20px;
-}  
-
-.text-input{
-    background:transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
-    margin:5px 0 20px;
-    border:1px solid #fafafa;
-    border-radius:2px;
-    
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 20, 20, 0.6);
+    max-width: 500px;
+    position: absolute;
+    left: 30%;
+    padding: 30px;
 }
 
-.text-input:hover{
-    border-color:#62174a;
+.contact-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+
+}
+
+.text-input:hover {
+    border-color: #62174a;
 }
 
 .send-button {
-    margin-top:20px;
-    border-radius:2px;
-    padding:15px 32px 15px 32px;
-    text-align:center;
-    font-size:100%;
-    background-color:#62174a;
-    color:#fafafa;
-    display:block;
-  
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #62174a;
+    color: #fafafa;
+    display: block;
+
 }
 
 .send-button:hover {
-    background-color:#fafafa;
-    color:#62174a;
+    background-color: #fafafa;
+    color: #62174a;
 }
 
 
@@ -263,7 +265,7 @@ h2 {
 footer {
     height: 9.375em;
     background-color: #F4A817;
-   
+
 }
 
 .social-media-aogim {
@@ -285,11 +287,11 @@ footer {
 
 /* from 1000px*/
 @media screen and (max-width:1000px) {
-   
+
 
     #goal-help {
 
-        height:35em;
+        height: 35em;
     }
 
     #left-box,
@@ -297,18 +299,19 @@ footer {
         width: 100%;
         height: 15em;
         margin: 0 auto;
-        border-style:none;
+        border-style: none;
         padding: 0;
     }
 
-    #right-box p,#left-box p {
-        padding:1.5em;
+    #right-box p,
+    #left-box p {
+        padding: 1.5em;
     }
 
     #about-us {
-    padding-left: 4rem;
-    padding-right: 4rem;
-    height: 800px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        height: 800px;
 
     }
 }
@@ -326,101 +329,105 @@ footer {
     }
 
     .contact-form {
-        margin:0;    
+        margin: 0;
         max-width: 100%;
-        position:0;
-        left:0;
+        position: 0;
+        left: 0;
         padding: 20px;
         overflow: hidden;
-        }
-        #about-us {
-           height: 1200px;
-        
-            }
+    }
+
+    #about-us {
+        height: 1200px;
+
+    }
 }
 
 /* small screen from 470px*/
 @media screen and (max-width:470px) {
 
+    /* Home page */
     #logo {
         font-size: 145%;
-        margin-left:2em; 
+        margin-left: 2em;
         margin-right: 2em;
     }
 
     #menu {
         font-size: 89%;
-        letter-spacing:0;
-     
+        letter-spacing: 0;
+
     }
 
     #hero-image {
 
         height: 20em;
     }
-      
+
     #goal-help {
-     height: 42rem; 
-    
-    }
-
-    #right-box, #left-box {
-    float:none;    
-    border-style:none;
-    height:20rem;
-    max-width:100%;
+        height: 42rem;
 
     }
 
-    #right-box p,#left-box p {
-        padding:1.5em;
+    #right-box,
+    #left-box {
+        float: none;
+        border-style: none;
+        height: 21rem;
+        max-width: 100%;
+
     }
-  
+
+    #right-box p,
+    #left-box p {
+        padding: 1.5em;
+    }
+
     #donate-volunteer {
-        padding:0;
-        height:22.5em;
-        border-style:none;
-        border-radius:0;
-        overflow-x:hidden;
-        
+        padding: 0;
+        height: 22.5em;
+        overflow-x: hidden;
+
     }
 
-    #donate-volunteer h2,h3 {
+    #donate-volunteer h2,
+    h3 {
         padding: 0.5em;
-        
+
     }
-    
-    #donate p, #volunteer p {
-        padding:0.5em;
+
+    #donate p,
+    #volunteer p {
+        padding: 0.5em;
     }
-  
+
 
     /*About-us page*/
-    
+
     #about-us {
         padding-left: 2rem;
         padding-right: 2rem;
         height: 1800px;
-        }
-    
-        #about-image {
-            height: 20em;
-        }
+    }
 
-     /*Contact page*/   
+    #about-image {
+        height: 20em;
+    }
+
+    /*Contact page*/
     .form {
         font-size: 1em;
         height: 560px;
     }
 
     .contact-form {
-    margin:0;    
-    max-width: 100%;
-    position:0;
-    left:0;
-    padding: 5px;
-    overflow: hidden;
+        margin: 0;
+        max-width: 100%;
+        position: 0;
+        left: 0;
+        padding: 5px;
+        overflow: hidden;
     }
 
-   
+
 }
