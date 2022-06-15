@@ -156,7 +156,8 @@ h2 {
     padding: 0.5em;
     background-color: #296990ff;
     border-style:solid;
-    border-radius: 40px; 
+    border-radius: 40px;
+    overflow:hidden;
     
             
 }
@@ -284,14 +285,31 @@ footer {
 
 /* from 1000px*/
 @media screen and (max-width:1000px) {
+   
+
+    #goal-help {
+
+        height:35em;
+    }
 
     #left-box,
     #right-box {
         width: 100%;
-        height: 6.25em;
+        height: 15em;
         margin: 0 auto;
-       
+        border-style:none;
         padding: 0;
+    }
+
+    #right-box p,#left-box p {
+        padding:1.5em;
+    }
+
+    #about-us {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 800px;
+
     }
 }
 
@@ -312,10 +330,13 @@ footer {
         max-width: 100%;
         position:0;
         left:0;
-        padding: 30px;
+        padding: 20px;
         overflow: hidden;
         }
-
+        #about-us {
+           height: 1200px;
+        
+            }
 }
 
 /* small screen from 470px*/
@@ -330,18 +351,66 @@ footer {
     #menu {
         font-size: 115%;
         letter-spacing:0;
-         
+     
     }
 
     #hero-image {
 
         height: 20em;
     }
+      
+    #goal-help {
+     height: 42rem; 
+    
+    }
 
+    #right-box, #left-box {
+    float:none;    
+    border-style:none;
+    height:20rem;
+    max-width:100%;
+
+    }
+
+    #right-box p,#left-box p {
+        padding:1.5em;
+    }
+  
+    #donate-volunteer {
+        padding:0;
+        height:22.5em;
+        border-style:none;
+        border-radius:0;
+        overflow-x:hidden;
+        
+    }
+
+    #donate-volunteer h2,h3 {
+        padding: 0.5em;
+        
+    }
+    
+    #donate p, #volunteer p {
+        padding:0.5em;
+    }
+  
+
+    /*About-us page*/
+    
+    #about-us {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        height: 1500px;
+        }
+    
+        #about-image {
+            height: 20em;
+        }
+
+     /*Contact page*/   
     .form {
         font-size: 1em;
         height: 560px;
-
     }
 
     .contact-form {
@@ -352,22 +421,6 @@ footer {
     padding: 5px;
     overflow: hidden;
     }
-    
-    #goal-help {
-     height: 35rem; 
-     
-    }
-    #right-box, #left-box {
-    float:none;    
-    border-style:none;
-    height:15rem;
- 
-    
-    }
-  
-    
 
-    #donate-volunteer {
-        padding:0;
-    }
+   
 }
