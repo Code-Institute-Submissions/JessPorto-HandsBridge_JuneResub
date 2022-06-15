@@ -331,10 +331,10 @@ footer {
     .contact-form {
         margin: 0;
         max-width: 100%;
-        position: 0;
         left: 0;
         padding: 20px;
         overflow: hidden;
+        height: 860px;
     }
 
     #about-us {
@@ -365,7 +365,7 @@ footer {
     }
 
     #goal-help {
-        height: 42rem;
+        height: 45rem;
 
     }
 
@@ -385,7 +385,7 @@ footer {
 
     #donate-volunteer {
         padding: 0;
-        height: 22.5em;
+        height: 25em;
         overflow-x: hidden;
 
     }
@@ -423,9 +423,9 @@ footer {
     .contact-form {
         margin: 0;
         max-width: 100%;
-        position: 0;
         left: 0;
         padding: 5px;
+        height: 550px;
         overflow: hidden;
     }
 
