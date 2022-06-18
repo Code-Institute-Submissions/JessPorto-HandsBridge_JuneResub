@@ -114,7 +114,7 @@
 
 ### Fixed Bugs
 
-- Initialy the page presented responsiveness issues on mobile devices that were fixed.
+- Initialy the page presented responsiveness issues on mobile devices that were fixed in this version.
 
 
 ## Deployment 
