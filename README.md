@@ -112,9 +112,9 @@
 - CSS
   No errors were found when passing through the official [W3C CSS validator](/assets/images/CssValidator.jpg)
 
-### Unfixed Bugs
+### Fixed Bugs
 
-- The mobile responsiveness needs to be fixed.
+- Initialy the page presented responsiveness issues on mobile devices that were fixed.
 
 
 ## Deployment 
